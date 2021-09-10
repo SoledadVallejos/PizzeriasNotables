@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="img-banner">
+            <img width="100%" src="/public/img/bannerProyectoPizzeria01.jpg" alt="img-banner">
+        </div>
+        <nav class="nav-home">
+            <ul>
+                <li> <a href="/views/index.html"> Página Principal</a></li>
+                <li> <a href="/views/pizzeria-notables.html">Pizzerias Notables</a></li>
+                <li> <a href="/views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <h1>Registrate</h1>
+        <form action="">
+            <!-- fullName -->
+            <div class="container-input">
+                <input class="text" type="text" placeholder="Nombre y Apellido" name="fullName">
+            </div>
+
+            <!-- userName -->
+            <div class="container-input">
+                <input class="text" type="text" placeholder="Nombre de usuari@" name="userName">
+            </div>
+
+            <!-- contraseña -->
+            <div class="container-input">
+                <input class="text" type="password" name="pass" placeholder="Contraseña" minlength="8">
+            </div>
+
+            <!-- repetir contraseña -->
+            <div class="container-input">
+                <input class="text" type="password" name="repeat-pass" placeholder="Repetir contraseña">
+            </div>
+
+            <!-- mensaje -->
+            <h3>Mensaje</h3>
+            <div class="box-form">
+                <textarea style="resize: none;" name="comentario" id="comentario" cols="60" rows="10"></textarea>
+            </div>
+
+            <!-- botones -->
+            <div class="conteiner-buttons">
+                <button class="btn-celeste" type="submit">Registrate</button>
+                <button class="btn-rojo" type="reset">Resetear</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body {
+    background-color: #D1BF91;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+/**************************/
+/* HOME */
+
+/* Nav*/
+.nav-home {
+    background-color: #A6341B;
+    padding: 25px 0;
+    margin-top: -4px;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-home ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-home a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-home a:hover{
+    color: #60371E;
+    font-weight: bold;
+
+}
+
+/* Home */
+
+.ml-15 {
+    margin-bottom: 15px;
+}
+
+.contenedor-descripcion {
+    padding: 0px 25px;
+}
+
+.contenedor-descripcion h1 {
+    text-align: center;
+    margin: 15px 0;
+    
+}
+
+
+
+/**************************/
+/* PIZZERIAS NOTABLES */
+
+.contenedor-descripcion-pizzeria{
+    display: flex;
+    align-items: center;
+    margin: 25px 25px;
+    border: solid 2px black; 
+    border-radius: 5px ;
+    padding: 20px 0;
+    background-color: #F9C743;
+    display: flex;
+    justify-content: space-around; 
+  
+}
+
+.c-img{
+    text-align: center;
+}
+
+.c-img img{
+    width: 50%; 
+}
+
+.c-img img:hover{
+    width: 51%;
+}
+
+.descripcion{
+    width: 50%;
+  
+}
+
+.descripcion p{
+    margin-top: 10px;
+}
+
+.color-span{
+    font-weight: bold;
+    
+}
+
+
+
+/**************************/
+/* CONTACTOS */
+
+.contenedor{
+    background-color: #C7C8C4;
+    width: 45%;
+    margin: 30px auto;
+    padding: 15px;
+    
+
+}
+
+.contenedor h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container-input{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+
+} 
+
+.container-input input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contenedor h3{
+    text-align: center;
+    margin: 20px 0;
+}
+
+input.text{
+    width: 100%;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    
+}
+
+
+.conteiner-buttons button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.conteiner-buttons button:hover{
+    cursor: pointer;
+
+}
+
+.conteiner-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.btn-rojo{
+    background-color: #60371E;
+    color: white;
+}
+
+.btn-celeste{
+    background-color:#60371E;
+    color: white;
+    transition: background-color linear .3s;
+}
+
+.btn-celeste:hover{
+    background-color: #F9C743;
+}
+
+
+
